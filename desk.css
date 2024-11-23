@@ -1,0 +1,142 @@
+.home{
+    width: 123px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid rgba(208, 208, 208, 1);
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.contact{
+    width: 123px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.title{
+    height: 45px;
+    font-size: 30px;
+    font-weight: 800;
+    font-style:normal;
+    font-family: "Roboto", sans-serif;
+    padding: 15px;
+    margin: 0px;
+}
+.signin{
+    width:  123px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid rgba(208, 208, 208, 1);
+}
+.signin a{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+.signup{
+    width: 123px;
+    height: 40px;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.signup a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+ nav{
+    display: flex;
+    justify-content: space-around;
+} 
+.main{
+    display: flex;
+}
+.div1{
+    margin-left: 40px;
+}
+.mortage{
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.Calculate{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color:rgba(129, 114, 114, 1);
+    margin-left: 75px;
+    margin-top: -20px;
+}
+.div2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.location{
+    position: relative;
+    left: 340px;
+    width: 95px;
+    height: 20px;
+}
+.descrip{
+    position: relative;
+    bottom: 95px;
+    left: 150px;
+    width: 185px;
+    height: 26px;
+}
+.text1{
+    position: relative;
+    left: 340px;
+    font-family: "Roboto", sans-serif;
+}
+.text2{
+    position: relative;
+    text-align: right;
+    position: relative;
+    bottom: 45px;
+    left: 340px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: rgba(129, 114, 114, 1);
+}
+.myslides {
+    display: none;
+    width: 90%;
+    height:400px;
+}
+
+img{
+    width: 95%;
+    height: 400px; 
+    padding: 0px;
+    margin: 0px;
+}
+.fade{
+    position: relative;
+    left: 90px;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

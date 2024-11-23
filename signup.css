@@ -1,0 +1,96 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.mainimg{
+    width: 560px;
+    height: 635px;
+    margin: 0px;
+    padding: 0px;
+}
+.signup{
+    position: relative;
+    left: 790px;
+    bottom: 560px;
+    width: 330px;
+    height: 439px;
+    border-radius: 40px;
+    background-color: #756D6A;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+form{
+    position: relative;
+    top: -25px;
+    padding: 25px;
+}
+.inputbox{
+    position: relative;
+    margin: 25px 0;
+    border: 2px solid #f5f5f5;
+    border-radius: 15px; ;
+}
+.inputbox label{
+    position: absolute;
+    bottom: 35px;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    pointer-events: none;
+}
+.inputbox input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.nu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nu input{
+    width: 125px;
+}
+.btnsignup{
+    position: relative;
+    left: 90px;
+    top: 35px;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#756D6A;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}
+.text1{
+    position: relative;
+    left: 105px;
+    top: 48px;
+}
+.text1 a{
+    color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}

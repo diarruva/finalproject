@@ -1,0 +1,90 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+form{
+    padding: 40px;
+}
+body {
+    background-image: url('/foto/CASSANOARCHITETTURA\ _\ SKYARK\ &\ Co_\ _\ Artificial\ Intelligence\ _\ Farm\ in\ Puglia\ Italy\ _\ Architetto\ Cassano.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+.signin{
+    width: 360px;
+    height: 420px;
+    border-radius: 60px;
+    background-image: linear-gradient(#9A7B66 , #342A22);
+    position: relative;
+    top: 80px;
+    left: 175px;
+}
+h1{
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+    color: #FFFFFF;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0 ;
+    border-bottom: 2px solid white;
+}
+.inputbox label{
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: white;
+    pointer-events: none;
+}
+.inputbox input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.remember label{
+    color: white;
+    position: relative;
+    top: -20px;
+    right: 6px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.btnsignin{
+    position: relative;
+    left: 65px;
+    width: 130px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #9A7B66;
+}
+.register{
+   position: relative;
+}
+.register p {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+.register a {
+    text-decoration: none;
+    border: none;
+    color: #9A7B66;
+    font-weight: 500;
+}
